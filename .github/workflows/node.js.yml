@@ -32,10 +32,11 @@ jobs:
       working-directory: me-app
       
     - name: Deploy
+      working-directory: me-app
       run: |
        git config --global user.name $user_name
        git config --global user.email $user_email 
-       git remote set-url origin https://${github_token}@github.com/${repository}/tree/develop
+       git remote set-url origin https://${github_token}@github.com/${repository}
        npm run deploy
       env:
        user_name: 'github-actions[bot]'
