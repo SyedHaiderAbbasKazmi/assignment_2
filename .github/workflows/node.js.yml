@@ -30,6 +30,7 @@ jobs:
       working-directory: me-app
     - run: npm test
       working-directory: me-app
+      
     - name: Deploy
       run: |
        git config --global user.name $user_name
