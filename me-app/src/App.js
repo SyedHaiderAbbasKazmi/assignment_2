@@ -7,8 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Assignment 2 app 
-          Edit <code>src/App.js</code> and save to reload.
+          Here is the assigment 2 text changes
         </p>
         <a
           className="App-link"
